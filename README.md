@@ -1,4 +1,4 @@
-# Meta-Style：Meta-Style:Few-Shot Learning Dataset for Social Media Field
+# Meta-Style:Few-Shot Learning Dataset for Social Media Field
 
 The Meta-Style datset contains more than 36000 images belongs to 123 categories, which better reflects the performance and application value of few-shot learning algorithms in the social media domain and is scalable compared to existing datasets.
 
