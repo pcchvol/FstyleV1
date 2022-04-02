@@ -1,10 +1,10 @@
 # Meta-Style
 
-The Meta-Style datset contains more than 36000 images belongs to 123 categories, which better reflects the performance and application value of few-shot learning algorithms in the social media domain and is scalable compared to existing datasets.
+The Meta-Style datset contains more than 36000 images belongs to 123 categories, which better reflects the performance and application value of few-shot learning algorithms in the social media domain and is scalable compared to existing datasets.
 
 ### Applications
 
-Algorithm researchers in related industries usually define various classification standards, such as dress classification, atmosphere classification and temperament classification, according to the actual business needs at different stages,and then train the corresponding classification models. This process frequently involves large-scale data collection and data annotation. It is worth noting that large-scale data collection and labelling are labor-intensive and frequent, so the corresponding needs can be better solved by the few-shot learning.
+Algorithm researchers in related industries usually define various classification standards, such as dress classification, atmosphere classification and temperament classification, according to the actual business needs at different stages,and then train the corresponding classification models. This process frequently involves large-scale data collection and data annotation. It is worth noting that large-scale data collection and labelling are labor-intensive and frequent, so the corresponding needs can be better solved by the few-shot learning.
 
 More importantly, for the social media space, tracking and creating hot topics is a significant task. For example, during 2021, the “pure-and-sexy” bloggers in TikTok suddenly became popular. So relevant algorithm engineers need to push similar style bloggers and short videos on a large scale as soon as they discover that there are precursors to the popularity of “pure-and-sexy” style. It is worth noting that only a small sample of “pure-and-sexy” style may be labeled at this time, so a few-shot learning algorithm is a reasonable way to handle the situation.
 
