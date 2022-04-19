@@ -9,6 +9,19 @@ Algorithm researchers in related industries usually define various classificatio
 More importantly, for the social media space, tracking and creating hot topics is a significant task. For example, during 2021, the “pure-and-sexy” bloggers in TikTok suddenly became popular. So relevant algorithm engineers need to push similar style bloggers and short videos on a large scale as soon as they discover that there are precursors to the popularity of “pure-and-sexy” style. It is worth noting that only a small sample of “pure-and-sexy” style may be labeled at this time, so a few-shot learning algorithm is a reasonable way to handle the situation.
 
 
+### Dates
+
+- [x] Release the result of the common few-shot methods[2022-04-11]
+- [x] Display of the proposed image desensitization scheme and solicitation of desensitization opinions[2022-04-19]
+- [ ] Release Training, validation and test sets.[to be confirmed]
+- [ ] Release extensible test set.[to be confirmed]
+
+### Image Desensitization
+Stage 1 of EfficientNet is used to generate desensitized images, and the dataset is not allowed to be used for commercial purposes.
+![figshow](img/fig1.png)
+![figshow](img/fig2.png)
+
+
 
 ### Data Filtering Based on CLIP
 
