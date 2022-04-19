@@ -18,7 +18,11 @@ More importantly, for the social media space, tracking and creating hot topics i
 
 ### Image Desensitization
 Stage 1 of EfficientNet is used to generate desensitized images, and the dataset is not allowed to be used for commercial purposes.
+The following figures show the activation featuremap of the desensitized image on channel 0
+
+
 ![figshow](img/fig1.png)
+
 ![figshow](img/fig2.png)
 
 
