@@ -13,13 +13,16 @@ More importantly, for the social media space, tracking and creating hot topics i
 
 - [x] Release the result of the common few-shot methods[2022-04-11]
 - [x] Display of the proposed image desensitization scheme and solicitation of desensitization opinions[2022-04-19]
+- [x] Previously inappropriate desensitization schemes have been rejected, and better desensitization schemes are being explored to make the dataset public as soon as possible.[2022-05-20]
 - [ ] Release Training, validation and test sets.[to be confirmed]
 - [ ] Release extensible test set.[to be confirmed]
 
 ### Image Desensitization
-Stage 1 of EfficientNet is used to generate desensitized images, and the dataset is not allowed to be used for commercial purposes.
+~~Stage 1 of EfficientNet is used to generate desensitized images, and the dataset is not allowed to be used for commercial purposes.
 The following figures show the activation featuremap of the desensitized image on channel 0
 
+Update:Using the backbone which is trained in ImageNet to desensitize is not a good choice, because this operation introduces better representation, which is inconsistent with the standard few-shot learning setting.
+Now we are looking for a better way to desensitize the dataset, which will be completed as soon as possible.
 
 ![figshow](img/fig1.png)
 
