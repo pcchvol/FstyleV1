@@ -14,7 +14,7 @@ More importantly, for the social media space, tracking and creating hot topics i
 - [x] Release the result of the common few-shot methods[2022-04-11]
 - [x] Display of the proposed image desensitization scheme and solicitation of desensitization opinions[2022-04-19]
 - [x] Previously inappropriate desensitization schemes have been rejected, and better desensitization schemes are being explored to make the dataset public as soon as possible.[2022-05-20]
-- [ ] Release Training, validation and test sets.[to be confirmed]
+- [x] Release Training, validation and test sets.[2022-08]
 - [ ] Release extensible test set.[to be confirmed]
 
 ### Image Desensitization
@@ -28,7 +28,9 @@ Now we are looking for a better way to desensitize the dataset, which will be co
 
 ![figshow](img/fig2.png)
 
-
+### OpenData
+We have released training set, verification set and test set, which can be accessed by the [Link](https://drive.google.com/file/d/1yHvbqYrqm3YtUKs0hAYEn_YKf3iTIW7Y/view?usp=sharing))
+Each .npy represents a category, which stores an array with dimension $[N,3,224,224]$, where N represents the number of pictures in this category.Each picture is resize to 224 and stored in uint8.
 
 ### Data Filtering Based on CLIP
 
