@@ -17,20 +17,18 @@ More importantly, for the social media space, tracking and creating hot topics i
 - [x] Release Training, validation and test sets.[2022-08]
 - [ ] Release extensible test set.[to be confirmed]
 
-### Image Desensitization
-~~Stage 1 of EfficientNet is used to generate desensitized images, and the dataset is not allowed to be used for commercial purposes.
-The following figures show the activation featuremap of the desensitized image on channel 0~~
-
-Update:Using the backbone which is trained on ImageNet to desensitize is not a good choice, because this operation introduces better representation, which is inconsistent with the standard few-shot learning setting.
-Now we are looking for a better way to desensitize the dataset, which will be completed as soon as possible.
+### Image Show
+Stage 1 of EfficientNet is used to generate desensitized images. The following figures show the activation featuremap of the desensitized image on channel 0
 
 ![figshow](img/fig1.png)
 
 ![figshow](img/fig2.png)
 
 ### OpenData
-We have released training set, verification set and test set, which can be accessed by the [Link](https://drive.google.com/file/d/1yHvbqYrqm3YtUKs0hAYEn_YKf3iTIW7Y/view?usp=sharing))
+We have released training set, verification set and test set, which can be accessed by the [Link](https://drive.google.com/file/d/1yHvbqYrqm3YtUKs0hAYEn_YKf3iTIW7Y/view?usp=sharing)
 Each .npy represents a category, which stores an array with dimension $[N,3,224,224]$, where N represents the number of pictures in this category.Each picture is resize to 224 and stored in uint8.
+
+**The dataset is not allowed to be used for commercial purposes.**
 
 ### Data Filtering Based on CLIP
 
