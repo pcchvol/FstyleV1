@@ -24,7 +24,8 @@ Stage 1 of EfficientNet is used to generate desensitized images. The following f
 
 ![figshow](img/fig2.png)
 
-### OpenData
+
+### Data Download
 We have released training set, verification set and test set, which can be accessed by the [Link](https://drive.google.com/file/d/1yHvbqYrqm3YtUKs0hAYEn_YKf3iTIW7Y/view?usp=sharing)
 Each .npy represents a category, which stores an array with dimension $[N,3,224,224]$, where N represents the number of pictures in this category.Each picture is resize to 224 and stored in uint8.
 
@@ -48,11 +49,6 @@ It is worth noting that there are usually many unrelated pictures of users in pe
 | Meta-Baseline                               | ResNet12 | 30.53 +- 0.80%     | 42.36 +- 0.35%     |
 | Baseline++ with Latent Prototype Estimation | ResNet12 | **60.66 +- 0.59%** | **77.00 +- 0.37**% |
 
-
-
-### Data Download
-
-The dataset will be provided as soon as possible after appropriate desensitization.
 
 
 
